@@ -1,15 +1,13 @@
 # lotteryVerifier
 
-#English#
-A python app to verify your games in Brazilian Lottery.
-By now is only by command line, but soon I will release a GUI version with some others games.  
+Aplicativo em python para verificar seus acertos na Lotofácil e Megasena
 
-########HOW TO USE########
+########COMO USAR########
 
-1- Open loteria0-0-3;
-2- You'll have two options:1 - Verify your games and 2 - Add a new game;
-3.0.1- If you choose 1 - Verify, you'll have another two options: 1 - Megasena and 2 - Lotofácil;
-3.0.2 - Choosing one of those, the algorithm will call a class who will check the web site of lottery and save the value of numbers sorted on that weekly game and then will compare with the .txt file of the game you choose;
-3.0.3 - Then the algorithm will show on the screen all of your games, the number of matches and if you won something;
-3.1.1 - If you choose 2 - Add a new game, you'll have another two options: 1 - Megasena and 2 - Lotofácil;
-3.1.2 - Choosing one of those, the algorithm will ask you for new numbers for a new game, saving those on the last line of the respective game .txt file.
+1- Abra loteria0-0-3;
+2- Você vai ter duas opções:1 - Verificar seus jogos ou 2 - Adicionar novo jogo;
+3.0.1 - Se a escolha for 1 (verificar), você terá duas novas opções: 1 - Megasena ou 2 - Lotofácil;
+3.0.2 - O algoritmo verificará os resultados da semana no site da loteria e irá comparar com o txt que contém os seus jogos;
+3.0.3 - Então será mostrado todos os seus jogos, o número de acertos e o que você ganhou (caso tenha ganho algo);
+3.1.1 - Se você escolher 2 (adicionar um novo jogo), você terá outras duas opções: 1 - Megasena ou 2 - Lotofácil;
+3.1.2 - Você irá informar os números do seu jogo (separando-os por espaço) e ele será salvo no arquivo txt.
